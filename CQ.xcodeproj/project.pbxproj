@@ -12,6 +12,7 @@
 		AF765C881FCD243D001F11D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF765C861FCD243D001F11D3 /* Main.storyboard */; };
 		AF765C8A1FCD243D001F11D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF765C891FCD243D001F11D3 /* Assets.xcassets */; };
 		AF765C8D1FCD243D001F11D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF765C8B1FCD243D001F11D3 /* LaunchScreen.storyboard */; };
+		AF765C951FCD24BB001F11D3 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = AF765C941FCD24BB001F11D3 /* speaker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AF765C891FCD243D001F11D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF765C8C1FCD243D001F11D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF765C8E1FCD243D001F11D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF765C941FCD24BB001F11D3 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				AF765C891FCD243D001F11D3 /* Assets.xcassets */,
 				AF765C8B1FCD243D001F11D3 /* LaunchScreen.storyboard */,
 				AF765C8E1FCD243D001F11D3 /* Info.plist */,
+				AF765C961FCD24C4001F11D3 /* Assets */,
 			);
 			path = CQ;
+			sourceTree = "<group>";
+		};
+		AF765C961FCD24C4001F11D3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AF765C941FCD24BB001F11D3 /* speaker.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF765C8D1FCD243D001F11D3 /* LaunchScreen.storyboard in Resources */,
+				AF765C951FCD24BB001F11D3 /* speaker.png in Resources */,
 				AF765C8A1FCD243D001F11D3 /* Assets.xcassets in Resources */,
 				AF765C881FCD243D001F11D3 /* Main.storyboard in Resources */,
 			);
