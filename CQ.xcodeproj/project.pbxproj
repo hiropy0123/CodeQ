@@ -13,6 +13,7 @@
 		AF765C8A1FCD243D001F11D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF765C891FCD243D001F11D3 /* Assets.xcassets */; };
 		AF765C8D1FCD243D001F11D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF765C8B1FCD243D001F11D3 /* LaunchScreen.storyboard */; };
 		AF765C951FCD24BB001F11D3 /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = AF765C941FCD24BB001F11D3 /* speaker.png */; };
+		AF765C981FCD2A46001F11D3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF765C971FCD2A46001F11D3 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF765C8C1FCD243D001F11D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF765C8E1FCD243D001F11D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF765C941FCD24BB001F11D3 /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		AF765C971FCD2A46001F11D3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AF765C821FCD243D001F11D3 /* AppDelegate.swift */,
 				AF765C841FCD243D001F11D3 /* ViewController.swift */,
 				AF765C861FCD243D001F11D3 /* Main.storyboard */,
+				AF765C971FCD2A46001F11D3 /* RoundedButton.swift */,
 				AF765C891FCD243D001F11D3 /* Assets.xcassets */,
 				AF765C8B1FCD243D001F11D3 /* LaunchScreen.storyboard */,
 				AF765C8E1FCD243D001F11D3 /* Info.plist */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF765C851FCD243D001F11D3 /* ViewController.swift in Sources */,
+				AF765C981FCD2A46001F11D3 /* RoundedButton.swift in Sources */,
 				AF765C831FCD243D001F11D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
